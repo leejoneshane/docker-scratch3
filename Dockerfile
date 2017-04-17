@@ -1,12 +1,11 @@
-FROM node
+FROM node:boron
 MAINTAINER leejoneshane@gmail.com
 
 EXPOSE 8073
-WORKDIR /root
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
 RUN git clone https://github.com/LLK/scratch-vm.git \
     && cd scratch-vm \
-    && npm install \
-    && npm start
-ADD start.sh /sbin
-RUN chmod 711 /sbin/start.sh
-CMD ["start.sh"]
+    && npm install
+
+CMD ["npm","start"]
