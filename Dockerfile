@@ -6,6 +6,8 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN git clone https://github.com/LLK/scratch-vm.git \
     && cd scratch-vm \
+    && mv * ../ \
+    && cd .. \
     && npm install
 
 CMD ["npm","start"]
