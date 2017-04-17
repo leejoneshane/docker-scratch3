@@ -8,6 +8,7 @@ RUN git clone https://github.com/LLK/scratch-vm.git \
     && cd scratch-vm \
     && mv * ../ \
     && cd .. \
+    && rm -rf scratch-vm \
     && npm install
 
 CMD ["npm","start"]
