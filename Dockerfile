@@ -1,4 +1,4 @@
-FROM node:onbuild
+FROM node
 MAINTAINER leejoneshane@gmail.com
 
 EXPOSE 8073
