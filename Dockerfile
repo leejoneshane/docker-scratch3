@@ -1,7 +1,6 @@
 FROM node:boron
 MAINTAINER leejoneshane@gmail.com
 
-EXPOSE 8073
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 RUN git clone https://github.com/LLK/scratch-vm.git \
@@ -10,5 +9,6 @@ RUN git clone https://github.com/LLK/scratch-vm.git \
     && cd .. \
     && rm -rf scratch-vm \
     && npm install
-
+EXPOSE 8073
+VOLUME ["/usr/src/app"]
 CMD ["npm","start"]
