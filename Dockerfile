@@ -7,4 +7,5 @@ RUN git clone https://github.com/LLK/scratch-vm.git \
     && cd scratch-vm \
     && npm install \
     && npm start
-CMD ["node"]
+ADD start.sh /
+CMD ["start.sh"]
