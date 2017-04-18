@@ -10,8 +10,6 @@ docker run -p 80:8601 --name scratch -d leejoneshane/docker-scratch3
 
 If the dev server is running then go to http://docker_host_ip/
 
-you will be directed to the playground, which demonstrates various tools and internal state.
-
 If you want to change the web dev server confugure, you should copy the container's VOLUME data first, command below:
 
 docker cp scratch:/usr/src/app /root/scratch3
