@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node
 MAINTAINER leejoneshane@gmail.com
 
 WORKDIR /usr/src/app
