@@ -2,7 +2,10 @@ FROM node
 MAINTAINER leejoneshane@gmail.com
 
 WORKDIR /usr/src/app
-RUN git clone https://github.com/LLK/scratch-gui.git \
+RUN apt-get update \
+    && apt-get -y install vim \
+    && apt-get clean \
+    && git clone https://github.com/LLK/scratch-gui.git \
     && mv scratch-gui/* . \
     && rm -rf scratch-gui \
     && npm install
