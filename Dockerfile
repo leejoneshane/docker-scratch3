@@ -1,7 +1,7 @@
 FROM node:alpine
 
 WORKDIR /usr/src/app
-RUN apk add --no-cache vim \
+RUN apk add --no-cache git vim \
     && git clone https://github.com/LLK/scratch-gui.git \
     && mv scratch-gui/* . \
     && rm -rf scratch-gui \
