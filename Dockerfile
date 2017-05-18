@@ -1,10 +1,7 @@
-FROM node
-MAINTAINER leejoneshane@gmail.com
+FROM node:alpine
 
 WORKDIR /usr/src/app
-RUN apt-get update \
-    && apt-get -y install vim \
-    && apt-get clean \
+RUN apk add --no-cache vim \
     && git clone https://github.com/LLK/scratch-gui.git \
     && mv scratch-gui/* . \
     && rm -rf scratch-gui \
