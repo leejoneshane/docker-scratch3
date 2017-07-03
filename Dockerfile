@@ -7,6 +7,7 @@ RUN apk add --no-cache git vim \
     && rm -rf scratch-gui \
     && npm install
 
-EXPOSE 8601
+ADD webpack.config.js /usr/src/app/
+EXPOSE 80
 VOLUME ["/usr/src/app"]
 CMD ["npm","start"]
