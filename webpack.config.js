@@ -13,7 +13,6 @@ var postcssImport = require('postcss-import');
 module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, 'build'),
-        disableHostCheck: true,
         host: '0.0.0.0',
         port: process.env.PORT || 80
     },
@@ -34,11 +33,7 @@ module.exports = {
         rules: [{
             test: /\.jsx?$/,
             loader: 'babel-loader',
-            include: path.resolve(__dirname, 'src'),
-            options: {
-                plugins: ['transform-object-rest-spread'],
-                presets: [['es2015', {modules: false}], 'react']
-            }
+            include: path.resolve(__dirname, 'src')
         },
         {
             test: /\.css$/,
