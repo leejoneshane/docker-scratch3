@@ -8,7 +8,7 @@ RUN apk add --no-cache git vim \
     && npm install \
     && sed -ri -e "s!8601!80!g" ./webpack.config.js
 
-WORKDIR /usr/src/app/scratch
+WORKDIR /usr/src/app/scratch-gui
 EXPOSE 80
 VOLUME ["/usr/src/app"]
 CMD ["npm","start"]
