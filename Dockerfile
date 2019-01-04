@@ -5,9 +5,10 @@ RUN apk add --no-cache git vim \
     && cd /usr/src/app \
     && git clone https://github.com/LLK/scratch-gui.git \
     && cd scratch-gui \
-    && npm install
+    && npm install \
+    && sed -ri -e "s/8601/80,\n disableHostCheck: true/" ./webpack.config.js
 
 WORKDIR /usr/src/app/scratch-gui
-EXPOSE 8601
+EXPOSE 80
 VOLUME ["/usr/src/app"]
 CMD ["npm","start"]
