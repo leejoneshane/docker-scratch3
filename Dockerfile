@@ -10,5 +10,4 @@ RUN apk add --no-cache git vim \
 
 WORKDIR /usr/src/app/scratch-gui
 EXPOSE 80
-VOLUME ["/usr/src/app"]
 CMD ["npm","start"]
