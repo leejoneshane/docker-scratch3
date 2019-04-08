@@ -1,5 +1,7 @@
 FROM node:alpine
 
+ENV NODE_ENV production
+
 RUN apk add --no-cache git vim \
     && mkdir -p /usr/src/app \
     && cd /usr/src/app \
