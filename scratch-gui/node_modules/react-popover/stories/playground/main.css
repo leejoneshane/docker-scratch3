@@ -1,0 +1,63 @@
+/* Boilerplate */
+
+html {
+  height: 200rem;
+}
+
+#app {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Popover */
+
+.Popover-body {
+  padding: 4rem;
+}
+
+/* Target */
+
+.Target {
+  -webkit-user-select: none;
+  position: relative;
+  display: inline-block;
+  color: hsla(0, 0%, 0%, 0.45);
+  color: white;
+  white-space: pre-wrap;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.Target-Move {
+  padding: 1rem;
+  cursor: move;
+  border-bottom: 1px solid white;
+  background: hsl(173, 69%, 48%);
+}
+
+.Target-Toggle {
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+  background: hsl(346, 62%, 55%);
+}
+.Target.is-open .Target-Toggle {
+  background: hsl(346, 80%, 50%);
+}
+
+/* Demo Controls */
+
+form {
+  margin-top: 2rem;
+  margin-bottom: calc(50vh - 6rem);
+}
+
+input {
+  margin-left: 1rem;
+}
+
+label:not(:first-child) {
+  margin-left: 2rem;
+}

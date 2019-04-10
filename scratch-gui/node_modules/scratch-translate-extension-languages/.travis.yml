@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- 8
+cache:
+  directories:
+  - node_modules
+before_deploy:
+- npm --no-git-tag-version version 0.0.$(date +%Y%m%d%H%M%S)
+deploy:
+- provider: npm
+  on:
+    branch: master
+  skip_cleanup: true
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
