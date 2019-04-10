@@ -2,7 +2,6 @@
 .DS_Store
 
 # NPM
-/node_modules
 npm-*
 /package-lock.json
 
