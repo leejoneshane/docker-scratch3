@@ -1,12 +1,9 @@
 FROM node:alpine
 
 ENV NODE_ENV production
+ADD scratch-gui /usr/src/app/scratch-gui
 
-RUN apk add --no-cache git \
-    && mkdir -p /usr/src/app \
-    && cd /usr/src/app \
-    && git clone https://github.com/LLK/scratch-gui.git \
-    && cd scratch-gui \
+RUN cd /usr/src/app/scratch-gui \
     && yarn install \
     && sed -ri -e "s/8601/80,\n disableHostCheck: true/" ./webpack.config.js
 
