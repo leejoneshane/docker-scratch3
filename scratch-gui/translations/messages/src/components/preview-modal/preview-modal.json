@@ -1,0 +1,62 @@
+[
+  {
+    "id": "gui.previewInfo.label",
+    "description": "Scratch 3.0 modal label - for accessibility",
+    "defaultMessage": "Try Scratch 3.0"
+  },
+  {
+    "id": "gui.previewInfo.welcome",
+    "description": "Header for Preview Info Modal",
+    "defaultMessage": "Welcome to the Scratch 3.0 Beta"
+  },
+  {
+    "id": "gui.previewModal.notnowtooltip",
+    "description": "Tooltip for Not Now button",
+    "defaultMessage": "Not Now"
+  },
+  {
+    "id": "gui.previewModal.tryittooltip",
+    "description": "Tooltip for Try It button",
+    "defaultMessage": "Try It"
+  },
+  {
+    "id": "gui.previewModal.viewprojecttooltip",
+    "description": "Tooltip for View 2.0 Project button",
+    "defaultMessage": "View 2.0 Project"
+  },
+  {
+    "id": "gui.previewInfo.betawelcome",
+    "description": "Header for Beta Info Modal",
+    "defaultMessage": "Welcome to the Scratch 3.0 Beta"
+  },
+  {
+    "id": "gui.previewInfo.invitation",
+    "description": "Invitation to try 3.0 Beta",
+    "defaultMessage": "We're working on the next generation of Scratch. We're excited for you to try it!"
+  },
+  {
+    "id": "gui.previewInfo.notnow",
+    "description": "Label for button to back out of trying Scratch 3.0 Beta",
+    "defaultMessage": "Not Now"
+  },
+  {
+    "id": "gui.previewModal.tryit",
+    "description": "Label for button to try Scratch 3.0 Beta",
+    "defaultMessage": "Try It! {caticon}"
+  },
+  {
+    "id": "gui.previewModal.viewproject",
+    "description": "Label for button to import a 2.0 project",
+    "defaultMessage": "View 2.0 Project"
+  },
+  {
+    "id": "gui.previewInfo.previewfaq",
+    "description": "Invitation to try 3.0 Beta",
+    "defaultMessage": "To learn more, go to the {previewFaqLink}."
+  },
+  {
+    "id": "gui.previewInfo.previewfaqlinktext",
+    "description": "link to Scratch 3.0 FAQ page",
+    "defaultMessage": "FAQ"
+  }
+]

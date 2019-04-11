@@ -1,0 +1,452 @@
+[
+  {
+    "id": "gui.howtos.intro-move-sayhello-hat.name",
+    "description": "Name for the 'Getting Started' how-to",
+    "defaultMessage": "Getting Started"
+  },
+  {
+    "id": "gui.howtos.intro-move.step_stepMove",
+    "description": "Step name for 'Add a move block' step",
+    "defaultMessage": "Add a move block"
+  },
+  {
+    "id": "gui.howtos.add-a-move-block.step_stepMoveSayHello",
+    "description": "Step name for 'Add A Say Block' step",
+    "defaultMessage": "Click the green flag to start"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud",
+    "description": "Name for the 'Create Animations That Talk' how-to",
+    "defaultMessage": "Create Animations That Talk"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_AddTXTextension",
+    "description": "Step name for 'Add the Text to Speech blocks' step",
+    "defaultMessage": "Add the Text to Speech blocks"
+  },
+  {
+    "id": "gui.howtos. say-it-out-loud.step_TXTSpeech",
+    "description": "Step name for 'Say Something' step",
+    "defaultMessage": "Say Something"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud_TXTSetVoice",
+    "description": "Step name for 'Set a Voice",
+    "defaultMessage": "Set a Voice"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_TXTMove",
+    "description": "Step name for 'Move Around' step",
+    "defaultMessage": "Move Around"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_TXTBackdrop",
+    "description": "Step name for 'Add a Backdrop' step",
+    "defaultMessage": "Add a Backdrop"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_TXTAddSprite",
+    "description": "Step name for 'Add Another Character' step",
+    "defaultMessage": "Add Another Character"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_TXTSong",
+    "description": "Step name for 'Perform a Song' step",
+    "defaultMessage": "Perform a Song"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_TXTColor",
+    "description": "Step name for 'Change Color' step",
+    "defaultMessage": "Change Color"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_TXTSpin",
+    "description": "Step name for 'Spin Around",
+    "defaultMessage": "Spin Around"
+  },
+  {
+    "id": "gui.howtos.say-it-out-loud.step_TXTGrow",
+    "description": "Step name for 'Grow and Shrink' step",
+    "defaultMessage": "Grow and Shrink"
+  },
+  {
+    "id": "gui.howtos.cartoon-network",
+    "description": "Animate an Adventure Game' how-to",
+    "defaultMessage": "Animate an Adventure Game"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNcharacter",
+    "description": "Step name for 'Choose a Character to Show' step",
+    "defaultMessage": "Choose a Character to Show"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNsay",
+    "description": "Step name for 'Say Something' step",
+    "defaultMessage": "Say Something"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNglide",
+    "description": "Step name for 'Glide Around' step",
+    "defaultMessage": "Glide Around"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNpicksprite",
+    "description": "Step name for 'Choose an Object to Chase' step",
+    "defaultMessage": "Choose an Object to Chase"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNcollect",
+    "description": "Step name for 'Collect Objects' step",
+    "defaultMessage": "Collect Objects"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNvariable",
+    "description": "Step name for 'Make a Score Variable' step",
+    "defaultMessage": "Make a Score Variable"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNscore",
+    "description": "Step name for 'Keep Score' step",
+    "defaultMessage": "Keep Score"
+  },
+  {
+    "id": "gui.howtos.cartoon-network.step_CNbackdrop",
+    "description": "Step name for 'Level Up: Change Backdrop' step",
+    "defaultMessage": "Level Up: Change Backdrop"
+  },
+  {
+    "id": "gui.howtos.animate-a-name.name",
+    "description": "Name for the 'Animate a Name' how-to",
+    "defaultMessage": "Animate a Name"
+  },
+  {
+    "id": "gui.howtos.animate-a-name.step_AnimatePickLetter",
+    "description": "Step name for 'Pick a Letter Sprite' step",
+    "defaultMessage": "Pick a Letter Sprite"
+  },
+  {
+    "id": "gui.howtos.animate-a-name.step_AnimatePlaySound",
+    "description": "Step name for 'Play a Sound When Clicked' step",
+    "defaultMessage": "Play a Sound When Clicked"
+  },
+  {
+    "id": "gui.howtos.animate-a-name.step_AnimatePickLetter2",
+    "description": "Step name for 'Pick Another Letter Sprite",
+    "defaultMessage": "Pick Another Letter Sprite"
+  },
+  {
+    "id": "gui.howtos.animate-a-name.step_AnimateChangeColor",
+    "description": "Step name for 'Change color' step",
+    "defaultMessage": "Change color"
+  },
+  {
+    "id": "gui.howtos.animate-a-name.step_AnimateSpin",
+    "description": "Step name for 'Pick Another Letter Sprite & Make It Spin' step",
+    "defaultMessage": "Pick Another Letter Sprite & Make It Spin"
+  },
+  {
+    "id": "gui.howtos.animate-a-name.step_AnimateGrow",
+    "description": "Step name for 'Pick Another Letter Sprite & Make It Grow!' step",
+    "defaultMessage": "Pick Another Letter Sprite & Make It Grow"
+  },
+  {
+    "id": "gui.howtos.make-music.name",
+    "description": "Name for the 'Make Music' how-to",
+    "defaultMessage": "Make Music"
+  },
+  {
+    "id": "gui.howtos.Make-Music.step_PickInstrument",
+    "description": "Step name for 'Pick an Instrument Sprite' step",
+    "defaultMessage": "Pick an Instrument Sprite"
+  },
+  {
+    "id": "gui.howtos.Make-Music.step_PlaySoundClick",
+    "description": "Step name for 'Play Sound When Clicked' step",
+    "defaultMessage": "Play Sound When Clicked"
+  },
+  {
+    "id": "gui.howtos.Make-Music.step_MakeSong",
+    "description": "Step name for 'Create a Song' step",
+    "defaultMessage": "Create a Song"
+  },
+  {
+    "id": "gui.howtos.make-music.step_MakeBeat",
+    "description": "Step name for 'Choose a Drum & Make a Beat' step",
+    "defaultMessage": "Choose a Drum & Make a Beat"
+  },
+  {
+    "id": "gui.howtos.make-music.step_MakeBeatBox",
+    "description": "Step name for 'Choose the Microphone Sprite & Surprise Beatbox' step",
+    "defaultMessage": "Choose the Microphone Sprite & Surprise Beatbox"
+  },
+  {
+    "id": "gui.howtos.make-a-game.name",
+    "description": "Name for the 'Make a Clicker Game' how-to",
+    "defaultMessage": "Make a Clicker Game"
+  },
+  {
+    "id": "gui.howtos.Make-A-Game.step_GamePickSprite",
+    "description": "Step name for 'Pick A Sprite' step",
+    "defaultMessage": "Pick A Sprite"
+  },
+  {
+    "id": "gui.howtos.make-a-game.step_GamePlaySound",
+    "description": "Play Sound When Clicked' step",
+    "defaultMessage": "Play Sound When Clicked"
+  },
+  {
+    "id": "gui.howtos.make-a-game.step_GameAddScore",
+    "description": "Step name for 'Create Score Variable' step",
+    "defaultMessage": "Create Score Variable"
+  },
+  {
+    "id": "gui.howtos.make-a-game.step_GameChangeScore",
+    "description": "Step name for 'When Clicked Increase Score' step",
+    "defaultMessage": "When Clicked Increase Score"
+  },
+  {
+    "id": "gui.howtos.make-a-game.step_Random",
+    "description": "Step name for 'Go to a random position' step",
+    "defaultMessage": "Go to a random position"
+  },
+  {
+    "id": "gui.howtos.make-music.step_GameChangeColor",
+    "description": "Step name for 'Change Color' step",
+    "defaultMessage": "Change Color"
+  },
+  {
+    "id": "gui.howtos.make-music.step_ResetScore",
+    "description": "Step name for 'Reset Score' step",
+    "defaultMessage": "Reset Score"
+  },
+  {
+    "id": "gui.howtos.make-a-chase-game.name",
+    "description": "Name for the 'Make a Chase Game' how-to",
+    "defaultMessage": "Make a Chase Game"
+  },
+  {
+    "id": "gui.howtos.Chase-Game.step_BG",
+    "description": "Step name for 'Add a Backdrop' step",
+    "defaultMessage": "Add a Backdrop"
+  },
+  {
+    "id": "gui.howtos.chase-game.step_AddOcto",
+    "description": "Step name for 'Add a Sprite' step",
+    "defaultMessage": "Add a Sprite"
+  },
+  {
+    "id": "gui.howtos.make-music.step_LeftRight",
+    "description": "Step name for 'Move Right & Left With Arrow Keys' step",
+    "defaultMessage": "Move Right & Left With Arrow Keys"
+  },
+  {
+    "id": "gui.howtos.Chase-Game.step_UpDown",
+    "description": "Step name for 'Move Up & Down With Arrow Keys' step",
+    "defaultMessage": "Move Up & Down With Arrow Keys"
+  },
+  {
+    "id": "gui.howtos.Chase-Game.step_AddStar",
+    "description": "Step name for 'Add Another Sprite' step",
+    "defaultMessage": "Add Another Sprite"
+  },
+  {
+    "id": "gui.howtos.Chase-Game.step_MoveRandom",
+    "description": "Step name for 'Move Randomly' step",
+    "defaultMessage": "Move Randomly"
+  },
+  {
+    "id": "gui.howtos.Chase-Game.step_WhenTouch",
+    "description": "Step name for 'In Octopus Sprite, When Touching Play Sound' step",
+    "defaultMessage": "In Octopus Sprite, When Touching Play Sound"
+  },
+  {
+    "id": "gui.howtos.Chase-Game.step_ScoreVariable",
+    "description": "Step name for 'Create Score Variable",
+    "defaultMessage": "Create Score Variable"
+  },
+  {
+    "id": "gui.howtos.Chase-Game.ScoreWhenTouch",
+    "description": "Step name for 'In Octopus Sprite, When Touching Add Score step",
+    "defaultMessage": "In Octopus Sprite, When Touching Add Score"
+  },
+  {
+    "id": "gui.howtos.animate-char.name",
+    "description": "Name for the 'Animate A Character' how-to",
+    "defaultMessage": "Animate A Character"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_addbg",
+    "description": "Step name for 'Add a Backdrop' step",
+    "defaultMessage": "Add a Backdrop"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_addsprite",
+    "description": "Step name for 'Add a Sprite' step",
+    "defaultMessage": "Add a Sprite"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_saysomething",
+    "description": "Step name for 'Say Something' step",
+    "defaultMessage": "Say Something"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_addsound",
+    "description": "Step name for 'Add Sound' step",
+    "defaultMessage": "Add Sound"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_animatetalking",
+    "description": "Step name for 'Animate Talking' step",
+    "defaultMessage": "Animate Talking"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_arrowkeys",
+    "description": "Step name for 'Move Using Arrow Keys' step",
+    "defaultMessage": "Move Using Arrow Keys"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_jump",
+    "description": "Step name for 'Jump' step",
+    "defaultMessage": "Jump"
+  },
+  {
+    "id": "gui.howtos.animate-char.step_changecolor",
+    "description": "Step name for 'Change Color' step",
+    "defaultMessage": "Change Color"
+  },
+  {
+    "id": "gui.howtos.story.name",
+    "description": "Name for the 'Create A Story' how-to",
+    "defaultMessage": "Create A Story"
+  },
+  {
+    "id": "gui.howtos.story.step_addbg",
+    "description": "Step name for 'Add a Backdrop' step",
+    "defaultMessage": "Add a Backdrop"
+  },
+  {
+    "id": "gui.howtos.story.step_addsprite",
+    "description": "Step name for 'Add a Character' step",
+    "defaultMessage": "Add a Character"
+  },
+  {
+    "id": "gui.howtos.story.step_saysomething",
+    "description": "Step name for 'Say Something' step",
+    "defaultMessage": "Say Something"
+  },
+  {
+    "id": "gui.howtos.story.step_addanothersprite",
+    "description": "Step name for 'Add Another Character' step",
+    "defaultMessage": "Add Another Character"
+  },
+  {
+    "id": "gui.howtos.story.step_flip",
+    "description": "Flip Direction' step",
+    "defaultMessage": "Flip Direction"
+  },
+  {
+    "id": "gui.howtos.story.step_conversation",
+    "description": "Step name for 'Have A Conversation' step",
+    "defaultMessage": "Have A Conversation"
+  },
+  {
+    "id": "gui.howtos.story.addanotherbg",
+    "description": "Step name for 'Add Another Backdrop' step",
+    "defaultMessage": "Add Another Backdrop"
+  },
+  {
+    "id": "gui.howtos.story.step_swithbg",
+    "description": "Step name for 'Switch Backdrops' step",
+    "defaultMessage": "Switch Backdrops"
+  },
+  {
+    "id": "gui.howtos.story.step_hidewizard",
+    "description": "Step name for 'Hide the Wizard' step",
+    "defaultMessage": "Hide a Character"
+  },
+  {
+    "id": "gui.howtos.story.step_showwizard",
+    "description": "Step name for 'Show the Wizard' step",
+    "defaultMessage": "Show a Character"
+  },
+  {
+    "id": "gui.howtos.videosens.name",
+    "description": "Name for the 'Video Sensing' how-to",
+    "defaultMessage": "Video Sensing"
+  },
+  {
+    "id": "gui.howtos.videosens.step_addextension",
+    "description": "Step name for 'Add Extension' step",
+    "defaultMessage": "Add Extension"
+  },
+  {
+    "id": "gui.howtos.videosens.step_pet",
+    "description": "Step name for 'Pet the Cat' step",
+    "defaultMessage": "Pet the Cat"
+  },
+  {
+    "id": "gui.howtos.videosens.step_animate",
+    "description": "Step name for 'Animate' step",
+    "defaultMessage": "Animate"
+  },
+  {
+    "id": "gui.howtos.videosens.step_pop",
+    "description": "Step name for 'Pop a Balloon' step",
+    "defaultMessage": "Pop a Balloon"
+  },
+  {
+    "id": "gui.howtos.add-sprite.name",
+    "description": "Name for the 'Add a Sprite' how-to",
+    "defaultMessage": "Add a Sprite"
+  },
+  {
+    "id": "gui.howtos.add-sprite.step_addSprite",
+    "description": "Step name for 'Add a new sprite' step",
+    "defaultMessage": "Add a Sprite"
+  },
+  {
+    "id": "gui.howtos.add-a-backdrop.name",
+    "description": "Name for the 'Add a Backdrop' how-to",
+    "defaultMessage": "Add a Backdrop"
+  },
+  {
+    "id": "gui.howtos.change-size.name",
+    "description": "Name for the 'Change Size' how-to",
+    "defaultMessage": "Change Size"
+  },
+  {
+    "id": "gui.howtos.glide-around.name",
+    "description": "Name for the 'Glide Around' how-to",
+    "defaultMessage": "Glide Around"
+  },
+  {
+    "id": "gui.howtos.record-a-sound.name",
+    "description": "Record A Sound' how-to",
+    "defaultMessage": "Record a Sound"
+  },
+  {
+    "id": "gui.howtos.spin-video.name",
+    "description": "Name for the 'Make It Spin' how-to",
+    "defaultMessage": "Make It Spin"
+  },
+  {
+    "id": "gui.howtos.hide-and-show.name",
+    "description": "Name for the 'Hide and Show' how-to",
+    "defaultMessage": "Hide and Show"
+  },
+  {
+    "id": "gui.howtos.switch-costume.name",
+    "description": "Name for the 'Animate a Sprite' how-to",
+    "defaultMessage": "Animate a Sprite"
+  },
+  {
+    "id": "gui.howtos.move-around-with-arrow-keys.name",
+    "description": "Name for the 'Use Arrow Keys' how-to",
+    "defaultMessage": "Use Arrow Keys"
+  },
+  {
+    "id": "gui.howtos.add-effects.name",
+    "description": "Name for the 'Add Effects' how-to",
+    "defaultMessage": "Add Effects"
+  }
+]

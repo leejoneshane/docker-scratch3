@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gui.backpack.header",
+    "description": "Button to open the backpack",
+    "defaultMessage": "Backpack"
+  },
+  {
+    "id": "gui.backpack.errorBackpack",
+    "description": "Error backpack message",
+    "defaultMessage": "Error loading backpack"
+  },
+  {
+    "id": "gui.backpack.loadingBackpack",
+    "description": "Loading backpack message",
+    "defaultMessage": "Loading..."
+  },
+  {
+    "id": "gui.backpack.more",
+    "description": "Load more from backpack",
+    "defaultMessage": "More"
+  },
+  {
+    "id": "gui.backpack.emptyBackpack",
+    "description": "Empty backpack message",
+    "defaultMessage": "Backpack is empty"
+  }
+]
