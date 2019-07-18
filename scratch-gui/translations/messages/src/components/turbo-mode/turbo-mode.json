@@ -1,7 +1,0 @@
-[
-  {
-    "id": "gui.turboMode.active",
-    "description": "Label indicating turbo mode is active",
-    "defaultMessage": "Turbo Mode"
-  }
-]

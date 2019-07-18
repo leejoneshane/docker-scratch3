@@ -1,7 +1,0 @@
-[
-  {
-    "id": "gui.authorInfo.byUser",
-    "description": "Shows that a project was created by this user",
-    "defaultMessage": "by {username}"
-  }
-]
