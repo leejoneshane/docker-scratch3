@@ -9,7 +9,7 @@ RUN apk add --no-cache git bash \
     && git clone https://github.com/LLK/scratch-gui \
     && cd scratch-gui \
     && rm -rf .git \
-    && npm install && npm run build \
+    && npm install && npm start && npm run build \
     && sed -ri -e "s/8601/80,\n\tdisableHostCheck: true/" ./webpack.config.js
 
 WORKDIR /usr/src/app/scratch-gui
