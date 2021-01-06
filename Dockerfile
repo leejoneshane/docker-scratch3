@@ -3,6 +3,7 @@ FROM node:alpine
 ENV NODE_ENV production
 
 RUN apk add --no-cache git \
+    && npm install -g webpack-dev-server \
     && git clone https://github.com/LLK/scratch-gui \
     && cd scratch-gui \
     && npm install && npm audit fix --force \
