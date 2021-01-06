@@ -1,7 +1,6 @@
 FROM node:alpine
 
 ENV NODE_ENV production
-WORKDIR /scratch-gui
 
 RUN apk add --no-cache git \
     && git clone https://github.com/LLK/scratch-gui \
@@ -9,6 +8,6 @@ RUN apk add --no-cache git \
     && npm install && npm audit fix --force \
     && sed -ri -e "s/8601/80,\n\tdisableHostCheck: true/" ./webpack.config.js
 
-WORKDIR /usr/src/app/scratch-gui
+WORKDIR /scratch-gui
 EXPOSE 80
 CMD ["npm","start"]
