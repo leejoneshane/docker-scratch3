@@ -3,7 +3,7 @@ FROM node:alpine
 ENV NODE_ENV production
 WORKDIR /scratch-gui
 
-RUN apk add --no-cache python eudev-dev linux-headers build-base git \
+RUN apk add --no-cache git \
     && git clone https://github.com/LLK/scratch-gui \
     && cd scratch-gui \
     && npm install && npm audit fix --force \
