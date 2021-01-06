@@ -1,17 +1,12 @@
-FROM node:8-alpine
+FROM node:alpine
 
 ENV NODE_ENV production
+WORKDIR /scratch-gui
 
-RUN apk add --no-cache git bash \
-    && npm install -g @angular/cli@latest \
-    && npm install -g mkdirp \
-    && npm install -g webpack-cli \
-    && mkdir -p /usr/src/app \
-    && cd /usr/src/app \
+RUN apk add --no-cache python eudev-dev linux-headers build-base git \
     && git clone https://github.com/LLK/scratch-gui \
     && cd scratch-gui \
-    && rm -rf .git \
-    && npm install && npm run build \
+    && npm install && npm audit fix --force \
     && sed -ri -e "s/8601/80,\n\tdisableHostCheck: true/" ./webpack.config.js
 
 WORKDIR /usr/src/app/scratch-gui
