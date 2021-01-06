@@ -5,6 +5,7 @@ ENV NODE_ENV production
 RUN apk add --no-cache git bash \
     && npm install -g @angular/cli@latest \
     && npm install -g mkdirp \
+    && npm install -g webpack-cli \
     && mkdir -p /usr/src/app \
     && cd /usr/src/app \
     && git clone https://github.com/LLK/scratch-gui \
