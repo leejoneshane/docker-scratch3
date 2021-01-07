@@ -1,13 +1,13 @@
-FROM node:alpine
+FROM node:10-alpine
 
 ENV NODE_ENV production
+ENV PORT 80
 
 RUN apk add --no-cache git \
-    && npm install -g webpack-dev-server \
-    && git clone https://github.com/LLK/scratch-gui \
+    && git clone --depth=1 https://github.com/LLK/scratch-gui \
     && cd scratch-gui \
-    && npm install && npm audit fix --force \
-    && sed -ri -e "s/8601/80,\n\tdisableHostCheck: true/" ./webpack.config.js
+    && npm install && npm audit fix \
+    && npm run build
 
 WORKDIR /scratch-gui
 EXPOSE 80
