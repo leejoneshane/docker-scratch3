@@ -6,7 +6,7 @@ ENV PORT 80
 RUN apk add --no-cache git \
     && git clone --depth=1 https://github.com/LLK/scratch-gui \
     && cd scratch-gui \
-    && npm install --no-optional \
+    && npm install \
     && npm fund && npm audit fix \
     && npm run build
 
