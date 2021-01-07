@@ -1,6 +1,5 @@
 FROM node:10-alpine
 
-ENV NODE_ENV production
 ENV PORT 80
 
 RUN apk add --no-cache git \
